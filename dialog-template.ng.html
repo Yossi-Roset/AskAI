@@ -1,0 +1,21 @@
+<lui-dialog style="max-width: 450px;direction:{{direction}}">
+  <lui-dialog-header>
+    <lui-dialog-title>Qlik ChatGPT</lui-dialog-title>
+  </lui-dialog-header>
+  <lui-dialog-body>
+    {{answerHeadline}}
+
+    <div style="margin-top: 10px">
+      <b>-------</b>
+    </div>
+    <div id="askAIDialogText" style="margin-top: 5px">
+		{{text}}
+    </div>
+  </lui-dialog-body>
+  <lui-dialog-footer>
+   
+	<button class="lui-button  lui-dialog__footer-button" onclick="navigator.clipboard.writeText($('#askAIDialogText').html().replaceAll('<br>','\r\n'));">Copy</button>
+	<button class="lui-button  lui-dialog__footer-button" ng-click="close();">Close</button>
+	
+  </lui-dialog-footer>
+</lui-dialog>
