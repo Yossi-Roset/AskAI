@@ -1,17 +1,16 @@
-#AskAI
+# AskAI
 AskAI is a ground-breaking Qlik Sense extension, bringing for the first time the power of Generative AI into your BI environment, thus making every user an AI expert. Ever wanted to get more from your data and move into the age of AI? Ask AI is your tool. Simple than ever before – install and use immediately and ask just about anything about your data! 
+##### ⚡Uncover hidden patterns in your data.
+##### ⚡Generate amazing insights. 
+##### ⚡Enrich user experience within Qlik Sense.
+##### ⚡3 different AI engines in one extension.
 
-#####⚡Uncover hidden patterns in your data.
-#####⚡Generate amazing insights. 
-#####⚡Enrich user experience within Qlik Sense.
-#####⚡3 different AI engines in one extension.
 
-
-###Getting Started
+### Getting Started
 #### Get Ask AI
 Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 
-####Install on Qlik Sense Enterprise
+#### Install on Qlik Sense Enterprise
 - Open Qlik Management Console
 - Select Extensions on the QMC start page or from the Start drop-down menu.
 - Click Import.
@@ -20,7 +19,7 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 - Click Import.
 - Refresh the Qliksense page, and you will now see the Ask AI under your Custom Objects -> Extensions.
 
-####Install on Qlik Sense SaaS
+#### Install on Qlik Sense SaaS
 - In the Management Console, go to the Extensions section and click Add in the upper right-hand corner.
 - In the pop-up, click Browse to select an extension file, or drop a file in the designated area.
 - Click Upload.
@@ -33,8 +32,8 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 
 
 
-###Documentation:
-####Data Source
+### Documentation:
+#### Data Source
 - The "DataSource" is the qlik sense table or straight table that contains the data you want to ask the AI Engine about.
 
 - Select Master Visualization from the list, or uncheck "Use Master Visualization" and put an object id or a variable.
@@ -44,30 +43,7 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/properties_DataSource.png?raw=true)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-####AI Platforms
+#### AI Platforms
 - The extension supports up to 3 different AI platforms. you can determine what platforms will be in use, or to set a default and let the user choose between them.  Following is a quick explanaion:
 
 **Open AI:**
@@ -121,56 +97,56 @@ Instructions for Qlik's Python SSE installation, here:
 https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/GetStarted.md
 
 
-####Settings
+#### Settings
 
 ##### Default Question
 - The default question when the sheet is loading.
 
-#####Bold Names and Values.
+##### Bold Names and Values.
 - marks in **bold** the names and the numbers in the answer.
 
-#####Title
+##### Title
 - Set the title above the Question input box
 
-#####Button Caption
+##### Button Caption
 - Set the caption on the button
 
-#####Results to Variable
+##### Results to Variable
 - The answer will be set into a variable instead of a dialog, a drop-down menu will appear to select a variable.
 - Marking this option will disable the popup answer dialog.
 
-#####Display Direction
+##### Display Direction
 - Fully supports LTR or RTL, Left to Right is the default.
 
-#####Answer Headline
+##### Answer Headline
 - The text that will be added to the beginning of the answer.
 
-#####Additional Context
+##### Additional Context
 - An additional context that will be sent to the AI Engine, for example your selections or your comany name.
 
-####Advanced
+#### Advanced
 
 Advanced AI engines settings.
 
-#####Max Response
+##### Max Response
 - Set a limit on the number of tokens per model response. The API supports a maximum of 4000 tokens shared between the prompt (including system message, examples, message history, and user query) and the model's response. One token is roughly 4 characters for typical English text.
 
-#####Temperature
+##### Temperature
 - Controls randomness. Lowering the temperature means that the model will produce more repetitive and deterministic responses. Increasing the temperature will result in more unexpected or creative responses. Try adjusting temperature or Top P but not both.
 Frequency penalty
 Reduce the chance of repeating a token proportionally based on how often it has appeared in the text so far. This decreases the likelihood of repeating the exact same text in a response.
 
-#####Presence penalty
+##### Presence penalty
 - Reduce the chance of repeating any token that has appeared in the text at all so far. This increases the likelihood of introducing new topics in a response.
 
-#####Top P
+##### Top P
 - Similar to temperature, this controls randomness but uses a different method. Lowering Top P will narrow the model’s token selection to likelier tokens. Increasing Top P will let the model choose from tokens with both high and low likelihood. Try adjusting temperature or Top P but not both.
 
-#####Stop Sequence
+##### Stop Sequence
 - Make the model end its response at a desired point. The model response will end before the specified sequence, so it won't contain the stop sequence text. For ChatGPT, using <|im_end|> ensures that the model response doesn't generate a follow-up user query. You can include as many as four stop sequences - Comma separated.
 
 
-####Appearance
+#### Appearance
 - Control outer object titles, subtitles, footnote and hover menu.
 
 
