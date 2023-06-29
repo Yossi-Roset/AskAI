@@ -28,6 +28,8 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 - set the Origin to“oai.logsys.co.il”
 - check the following Directives: connect-src, object-src, script-src, font-src, style-src.
 - Click Add.
+- Repeat for https://api.openai.com to Enable OpenAI
+- Repeat for https://*.openai.azure.com to Enable AzureOpenAI
 - Now you can use the Ask AI under Extensions panel in the Sheet Editor.
 
 
@@ -79,7 +81,7 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 
 - To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
 
-**Python SSE (PandasAI)**
+**Python SSE (PandasAI)** (Not Supported In SaaS)
 This is the most secure option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
