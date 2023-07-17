@@ -66,7 +66,7 @@ Select "Show OpenAI Button" if you want the button to be visible.
 You cna select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
 
 
-**Azure OpenAI:**
+***Azure OpenAI:***
 
 Azure OpenAI is Microsoft's enterprise solution for OpenAI:
 
@@ -82,7 +82,7 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 
 - To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
 
-**Python SSE (PandasAI)** (Not Supported In SaaS)
+***Python SSE (PandasAI)*** (Not Supported In SaaS)
 This is the most secure option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
@@ -99,6 +99,7 @@ Select "Show Python SSE Button" if you want the button to be visible.
 Instructions for Qlik's Python SSE installation, here:
 https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/GetStarted.md
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms.png?raw=true)
 
 #### Settings
 
