@@ -45,7 +45,7 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/properties_DataSource.png?raw=true)
 
 
-#### AI Platforms
+### AI Platforms
 - The extension supports up to 3 different AI platforms. you can determine what platforms will be in use, or to set a default and let the user choose between them.  Following is a quick explanaion:
 
 **Open AI:**
