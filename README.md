@@ -5,7 +5,7 @@ AskAI is a ground-breaking Qlik Sense extension, bringing for the first time the
 ##### ⚡Enrich user experience within Qlik Sense.
 ##### ⚡3 different AI engines in one extension.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/gifExample.gif?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/gifExample.gif)
 
 ### Getting Started
 #### Get Ask AI
