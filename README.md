@@ -53,6 +53,7 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 Open AI is the platform behind the famous ChatGPT.
 
 **Pros**: 16K tokens in the largest model, so yo can send bigger tables.
+
 **Cons**: Your Data is sent out to OpenAI Platform
 You will need to buy a token for the API (not the ChatGPT Plus subscription)
 
