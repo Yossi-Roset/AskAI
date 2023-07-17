@@ -71,7 +71,7 @@ You cna select here the model that will be used to analyze your data, the defaul
 Azure OpenAI is Microsoft's enterprise solution for OpenAI:
 
 **Pros**
-Secure!, your data is encrypted and is not going out of your Azure environment. you can configure a retention policy.
+Secure! your data is encrypted and is not going out of your Azure environment. you can configure a retention policy.
 You can train a model on your company's data.
 **Cons**
 Requires Azure subscription.
@@ -128,6 +128,8 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 ##### Additional Context
 - An additional context that will be sent to the AI Engine, for example your selections or your comany name.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings.png?raw=true)
+
 #### Advanced
 
 Advanced AI engines settings.
@@ -149,6 +151,7 @@ Reduce the chance of repeating a token proportionally based on how often it has 
 ##### Stop Sequence
 - Make the model end its response at a desired point. The model response will end before the specified sequence, so it won't contain the stop sequence text. For ChatGPT, using <|im_end|> ensures that the model response doesn't generate a follow-up user query. You can include as many as four stop sequences - Comma separated.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced.png?raw=true)
 
 #### Appearance
 - Control outer object titles, subtitles, footnote and hover menu.
