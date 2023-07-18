@@ -39,11 +39,12 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 ##### Data Source
 - The "DataSource" is the qlik sense table or straight table that contains the data you want to ask the AI Engine about.
 
+
 - Select Master Visualization from the list, or uncheck "Use Master Visualization" and put an object id or a variable.
 
-- Another option is to uncheck "Data From Table Object" and insert your data in plaint text / expression.
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/DataSource0.png?raw=true) <br /> ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/DataSource1.png?raw=true)
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/properties_DataSource.png?raw=true)
+- Another option is to uncheck "Data From Table Object" and insert your data in plaint text / expression.
 
 
 #### AI Platforms
@@ -91,13 +92,13 @@ biggest model for now is up to 4k Tokens
 - To use Azure OpenAI platform in the extension check "Enable Azure OpenAI".
 Select "Show Azure OpenAI Button" if you want the button to be visible.
 
-- To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
-
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.3.png?raw=true)
+
+- To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
 
 ***Python SSE (PandasAI)*** (Not Supported In SaaS)
 
-This is the most secure option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
+This is the most secured option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
 Very secured – data stays on local user environment
@@ -142,7 +143,7 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 - The answer will be set into a variable instead of a dialog, a drop-down menu will appear to select a variable.
 - Marking this option will disable the popup answer dialog.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)  <br /> ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true) <br /> ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
 
 ##### *Display Direction*
 - Fully supports LTR or RTL, Left to Right is the default.
