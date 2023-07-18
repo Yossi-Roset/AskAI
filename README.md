@@ -42,7 +42,7 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 
 - Select Master Visualization from the list, or uncheck "Use Master Visualization" and put an object id or a variable.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/DataSource0.png?raw=true) <br /> ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/DataSource1.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/properties_DataSource.png?raw=true) 
 
 - Another option is to uncheck "Data From Table Object" and insert your data in plaint text / expression.
 
