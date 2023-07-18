@@ -118,32 +118,48 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 
 #### Settings
 
-##### Default Question
+##### *Default Question*
 - The default question when the sheet is loading.
 
-##### Bold Names and Values.
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings1.png?raw=true)
+
+##### *Bold Names and Values.*
 - marks in **bold** the names and the numbers in the answer.
 
-##### Title
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings2.png?raw=true)
+
+##### *Title*
 - Set the title above the Question input box
 
-##### Button Caption
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings3.png?raw=true)
+
+##### *Button Caption*
 - Set the caption on the button
 
-##### Results to Variable
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings4.png?raw=true)
+
+##### *Results to Variable*
 - The answer will be set into a variable instead of a dialog, a drop-down menu will appear to select a variable.
 - Marking this option will disable the popup answer dialog.
+
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
 
 ##### Display Direction
 - Fully supports LTR or RTL, Left to Right is the default.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings7.png?raw=true)
+
 ##### Answer Headline
 - The text that will be added to the beginning of the answer.
+
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings8.png?raw=true)
 
 ##### Additional Context
 - An additional context that will be sent to the AI Engine, for example your selections or your comany name.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings9.png?raw=true)
+
 
 #### Advanced
 
