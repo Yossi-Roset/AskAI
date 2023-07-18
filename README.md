@@ -68,7 +68,7 @@ Select "Show OpenAI Button" if you want the button to be visible.
 
 - Insert your OpenAPI Key.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.1.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
   
 - If you need to buy a Key: go to your OpenAI account, go to Billing overview and click "set up paid account", then go to "API Keys" and select "Create new secret key".
 
