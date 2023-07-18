@@ -83,6 +83,7 @@ Azure OpenAI is Microsoft's enterprise solution for OpenAI:
 **Pros**
 Secure! your data is encrypted and is not going out of your Azure environment. you can configure a retention policy.
 You can train a model on your company's data.
+
 **Cons**
 Requires Azure subscription.
 biggest model for now is up to 4k Tokens
@@ -92,12 +93,16 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 
 - To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.3.png?raw=true)
+
 ***Python SSE (PandasAI)*** (Not Supported In SaaS)
+
 This is the most secure option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
 Very secured – data stays on local user environment
 Accourate numerical calculations
+
 **Cons**
 Answers simpler questions than other platforms
 Requires a Python Server Side Extension installation
@@ -105,11 +110,11 @@ Requires a Python Server Side Extension installation
  To use Python SSE platform in the extension check "Python SSE".
 Select "Show Python SSE Button" if you want the button to be visible.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.4.png?raw=true)
 
 Instructions for Qlik's Python SSE installation, here:
 https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/GetStarted.md
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms.png?raw=true)
 
 #### Settings
 
