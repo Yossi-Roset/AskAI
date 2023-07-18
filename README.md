@@ -142,8 +142,7 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 - The answer will be set into a variable instead of a dialog, a drop-down menu will appear to select a variable.
 - Marking this option will disable the popup answer dialog.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)
-
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)  <br />
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
 
 ##### Display Direction
