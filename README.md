@@ -142,20 +142,19 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 - The answer will be set into a variable instead of a dialog, a drop-down menu will appear to select a variable.
 - Marking this option will disable the popup answer dialog.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)  <br />
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)  <br /> ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
 
-##### Display Direction
+##### *Display Direction*
 - Fully supports LTR or RTL, Left to Right is the default.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings7.png?raw=true)
 
-##### Answer Headline
+##### *Answer Headline*
 - The text that will be added to the beginning of the answer.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings8.png?raw=true)
 
-##### Additional Context
+##### *Additional Context*
 - An additional context that will be sent to the AI Engine, for example your selections or your comany name.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings9.png?raw=true)
@@ -165,24 +164,35 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 
 Advanced AI engines settings.
 
-##### Max Response
+##### *Max Response*
 - Set a limit on the number of tokens per model response. The API supports a maximum of 4000 tokens shared between the prompt (including system message, examples, message history, and user query) and the model's response. One token is roughly 4 characters for typical English text.
 
-##### Temperature
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced1.png?raw=true)
+
+##### *Temperature*
 - Controls randomness. Lowering the temperature means that the model will produce more repetitive and deterministic responses. Increasing the temperature will result in more unexpected or creative responses. Try adjusting temperature or Top P but not both.
-Frequency penalty
+
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced2.png?raw=true)
+
+##### *Frequency penalty*
 Reduce the chance of repeating a token proportionally based on how often it has appeared in the text so far. This decreases the likelihood of repeating the exact same text in a response.
 
-##### Presence penalty
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced3.png?raw=true)
+
+##### *Presence penalty*
 - Reduce the chance of repeating any token that has appeared in the text at all so far. This increases the likelihood of introducing new topics in a response.
 
-##### Top P
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced4.png?raw=true)
+
+##### *Top P*
 - Similar to temperature, this controls randomness but uses a different method. Lowering Top P will narrow the model’s token selection to likelier tokens. Increasing Top P will let the model choose from tokens with both high and low likelihood. Try adjusting temperature or Top P but not both.
 
-##### Stop Sequence
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced5.png?raw=true)
+
+##### *Stop Sequence*
 - Make the model end its response at a desired point. The model response will end before the specified sequence, so it won't contain the stop sequence text. For ChatGPT, using <|im_end|> ensures that the model response doesn't generate a follow-up user query. You can include as many as four stop sequences - Comma separated.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced6.png?raw=true)
 
 #### Appearance
 - Control outer object titles, subtitles, footnote and hover menu.
