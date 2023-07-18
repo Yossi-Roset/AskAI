@@ -143,6 +143,7 @@ https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/Ge
 - Marking this option will disable the popup answer dialog.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings5.png?raw=true)
+
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Settings6.png?raw=true)
 
 ##### Display Direction
