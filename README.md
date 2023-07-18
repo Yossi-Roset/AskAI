@@ -75,7 +75,7 @@ Select "Show OpenAI Button" if you want the button to be visible.
 - Select your OpenAI Model.
 You can select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms2.1.png?raw=true)
 
 ***Azure OpenAI:***
 
