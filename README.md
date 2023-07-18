@@ -49,6 +49,8 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 #### AI Platforms
 - The extension supports up to 3 different AI platforms. you can determine what platforms will be in use, or to set a default and let the user choose between them.  Following is a quick explanaion:
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms0.png?raw=true)
+
 ***Open AI:***
 
 Open AI is the platform behind the famous ChatGPT.
@@ -60,12 +62,19 @@ You will need to buy a token for the API (not the ChatGPT Plus subscription)
 
 - To use OpenAI platform in the extension check "Enable OpenAI". 
 Select "Show OpenAI Button" if you want the button to be visible.
+
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.png?raw=true)
+
 - Insert your OpenAPI Key.
+
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.1.png?raw=true)
+  
 - If you need to buy a Key: go to your OpenAI account, go to Billing overview and click "set up paid account", then go to "API Keys" and select "Create new secret key".
 
 - Select your OpenAI Model.
-You cna select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
+You can select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
 
 ***Azure OpenAI:***
 
