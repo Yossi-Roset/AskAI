@@ -101,8 +101,9 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 This is the most secured option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
-Very secured – data stays on local user environment
-Accourate numerical calculations
+Highly secured - the data remains in the local user environment.
+
+more accurate numerical calculations.
 
 **Cons**
 Answers simpler questions than other platforms
