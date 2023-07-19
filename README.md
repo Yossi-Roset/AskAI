@@ -202,6 +202,19 @@ Reduce the chance of repeating a token proportionally based on how often it has 
 - Control outer object titles, subtitles, footnote and hover menu.
 
 
+#### About 'AskAI' Extension:
 
+The 'AskAI' extension has been developed by the Logical BI group, a leading team of experts in Business Intelligence solutions. At Logical BI, we are passionate about harnessing the power of data to drive meaningful insights. 'AskAI' empowers users to interact with their data using natural language, making data exploration effortless and intuitive.
+
+#### **About Logical BI Group:**
+
+Logical BI is a cutting-edge provider of Business Intelligence and data analytics solutions, dedicated to helping businesses make informed decisions through data-driven insights. To learn more about us and our other innovative products and services, please visit our website: https://logsys.co.il
+
+#### **Discover 'LogiExport' Extension:**
+
+In addition to 'AskAI', we have also developed another exceptional extension for QlikSense users called 'LogiExport'. 'LogiExport' streamlines the exporting process, enabling users to effortlessly extract and share data in various formats. Learn more about 'LogiExport' here: https://logiexport.logsys.co.il.
+
+
+*For support contact us by email: support@logsys.co.il*
 
 
