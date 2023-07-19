@@ -199,7 +199,7 @@ Reduce the chance of repeating a token proportionally based on how often it has 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/Advanced6.png?raw=true)
 
 #### Appearance
-- Control outer object titles, subtitles, footnote and hover menu.
+- Control object titles, subtitles, footnote and hover menu.
 
 ### About
 
