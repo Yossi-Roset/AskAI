@@ -201,6 +201,8 @@ Reduce the chance of repeating a token proportionally based on how often it has 
 #### Appearance
 - Control outer object titles, subtitles, footnote and hover menu.
 
+### About:
+
 
 #### About 'AskAI' Extension:
 
