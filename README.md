@@ -46,6 +46,8 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 
 - Another option is to uncheck "Data From Table Object" and insert your data in plaint text / expression.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/DataSource2.png?raw=true) 
+
 
 #### AI Platforms
 - The extension supports up to 3 different AI platforms. you can determine what platforms will be in use, or to set a default and let the user choose between them.  Following is a quick explanaion:
@@ -68,14 +70,14 @@ Select "Show OpenAI Button" if you want the button to be visible.
 
 - Insert your OpenAPI Key.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.1.png?raw=true)
   
 - If you need to buy a Key: go to your OpenAI account, go to Billing overview and click "set up paid account", then go to "API Keys" and select "Create new secret key".
 
 - Select your OpenAI Model.
 You can select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms2.1.png?raw=true)
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
 
 ***Azure OpenAI:***
 
