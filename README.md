@@ -13,22 +13,22 @@ Go to https://github.com/Yossi-Roset/AskAI and download the Zip file.
 
 #### Install on Qlik Sense Enterprise
 - Open Qlik Management Console
-- Select Extensions on the QMC start page or from the Start drop-down menu.
-- Click Import.
-- Click Choose File and select .zip file.
-- Click Open in the File Explorer window.
-- Click Import.
+- Select **Extensions** on the QMC start page or from the Start drop-down menu.
+- Click **Import**.
+- Click **Choose File** and select .zip file.
+- Click **Open** in the File Explorer window.
+- Click **Import**.
 - Refresh the Qliksense page, and you will now see the Ask AI under your Custom Objects -> Extensions.
 
 #### Install on Qlik Sense SaaS
-- In the Management Console, go to the Extensions section and click Add in the upper right-hand corner.
-- In the pop-up, click Browse to select an extension file, or drop a file in the designated area.
-- Click Upload.
-- In the Management Console, go to the Content Security Policy section and Click Add in the upper right-hand corner.
+- In the Management Console, go to the **Extensions** section and click **Add** in the upper right-hand corner.
+- In the pop-up, click **Browse** to select an extension file, or drop a file in the designated area.
+- Click **Upload**.
+- In the Management Console, go to the Content Security Policy section and Click **Add** in the upper right-hand corner.
 - In the dialog, set the Name to “Ask AI”
-- set the Origin to“oai.logsys.co.il”
+- set the Origin to “oai.logsys.co.il”
 - check the following Directives: connect-src, object-src, script-src, font-src, style-src.
-- Click Add.
+- Click **Add**.
 - Repeat for https://api.openai.com to Enable OpenAI
 - Repeat for https://*.openai.azure.com to Enable AzureOpenAI
 - Now you can use the Ask AI under Extensions panel in the Sheet Editor.
@@ -101,15 +101,15 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 This is the most secured option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
 
 **Pros**
-Highly secured - the data remains in the local user environment.
+Highly secured - the data remains in the local user environment!
 
 more accurate numerical calculations.
 
 **Cons**
-Answers simpler questions than other platforms
+Answers simpler questions than other platforms.
 Requires a Python Server Side Extension installation
 
- To use Python SSE platform in the extension check "Python SSE".
+- To use Python SSE platform in the extension check "Python SSE".
 Select "Show Python SSE Button" if you want the button to be visible.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.4.png?raw=true)
