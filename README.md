@@ -72,10 +72,11 @@ Select "Show OpenAI Button" if you want the button to be visible.
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.1.png?raw=true)
   
-- If you need to buy a Key: go to your OpenAI account, go to Billing overview and click "set up paid account", then go to "API Keys" and select "Create new secret key".
+- Before using OpenAI you need to buy an API Key: go to your OpenAI account, go to Billing overview and click "set up paid account", then go to "API Keys" and select "Create new secret key".
+([https://platform.openai.com/account/billing/overview](https://platform.openai.com/account/billing/overview))
 
 - Select your OpenAI Model.
-You can select here the model that will be used to analyze your data, the default is **gpt-3.5-turbo-16k**.
+You can select here the model that will be used to analyze your data, the default is **gpt-4**.(if you do not have access to gpt-4 you can use **gpt-3.5-turbo-16k**).
 
 ![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.2.png?raw=true)
 
