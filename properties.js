@@ -123,7 +123,7 @@ return {
 							openAIModel: {
 									type: "string",
 									expression: "optional",
-									defaultValue: "gpt-3.5-turbo-16k",
+									defaultValue: "gpt-4",
 									ref: "props.openAIModel",
 									label: "OpenAI Model",
 									show: function (e) {
