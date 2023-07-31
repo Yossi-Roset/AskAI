@@ -117,6 +117,7 @@ Requires a Python Server Side Extension installation
 - To use Python SSE platform in the extension check "Python SSE".
 Select "Show Python SSE Button" if you want the button to be visible.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.5.png?raw=true)
 
 Instructions for Qlik's Python SSE installation, here:
 https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/GetStarted.md
