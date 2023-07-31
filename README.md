@@ -99,6 +99,8 @@ Select "Show Azure OpenAI Button" if you want the button to be visible.
 
 - To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
 
+![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.4.png?raw=true)
+
 ***Python SSE (PandasAI)*** (Not Supported In SaaS)
 
 This is the most secured option, it uses OpenAI but it sends only the column names to OpenAI not the data itself.
@@ -115,7 +117,6 @@ Requires a Python Server Side Extension installation
 - To use Python SSE platform in the extension check "Python SSE".
 Select "Show Python SSE Button" if you want the button to be visible.
 
-![](https://raw.githubusercontent.com/Yossi-Roset/AskAI/main/docs/img/AI_platforms1.4.png?raw=true)
 
 Instructions for Qlik's Python SSE installation, here:
 https://github.com/qlik-oss/server-side-extension/blob/master/examples/python/GetStarted.md
