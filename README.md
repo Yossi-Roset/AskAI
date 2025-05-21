@@ -63,7 +63,7 @@ Here is where your prompting skills will be needed, Enable Code Interperter adn 
 - Use the Code Interpreter for all calculations and data filtering tasks.
 - Omit reasoning or intermediate steps—provide only the final result without explanatory text (e.g., no "first, we need to...").
 - Return results in HTML format whenever applicable or possible.
-- Present any list of values as an HTML <ul> list with <li> elements..
+- Present any list of values as an HTML ul list with li elements..
 
 ***Azure OpenAI:***
 
