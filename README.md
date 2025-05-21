@@ -59,13 +59,14 @@ You can select here the model that will be used to analyze your data, the defaul
 - Create your own Assistant using OpenAI Playground.
 Here is where your prompting skills will be needed, Enable Code Interperter adn set some basic rules, for eaxmple:
 
-You are a Data Analyst:
-Use the Code Interpreter for all calculations and data filtering tasks.
-Omit reasoning or intermediate steps—provide only the final result without explanatory text (e.g., no "first, we need to...").
-Return results in HTML format whenever applicable or possible.
-Present any list of values as an HTML <ul> list with <li> elements..
+- You are a Data Analyst:
+- Use the Code Interpreter for all calculations and data filtering tasks.
+- Omit reasoning or intermediate steps—provide only the final result without explanatory text (e.g., no "first, we need to...").
+- Return results in HTML format whenever applicable or possible.
+- Present any list of values as an HTML <ul> list with <li> elements..
 
 ***Azure OpenAI:***
+
 ![openaiazuresett](https://github.com/user-attachments/assets/2d4df305-341d-4769-8c32-cae1847b8941)
 
 - To get your Key and URL: go to Azure OpenAI Studio, in the "Chat playground" click "Sample Code" choose "curl" and copy the key and the deployment URL.
